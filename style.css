@@ -9,13 +9,30 @@
 }
 
 header {
+
     font-family: 'Bungee', sans-serif;
     color: #ECF0F1;
+
+    padding: 16px 0;
 
     background-color: #182C61;
 }
 
+header nav li{
+    display: inline;
+    margin-left: 16px;
+}
+
+header nav li a{
+    color:#ECF0F1;
+}
 
 h2 {
     font-family: 'Bungee', sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
 }
