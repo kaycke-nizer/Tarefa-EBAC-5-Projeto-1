@@ -13,7 +13,7 @@ header {
     font-family: 'Bungee', sans-serif;
     color: #ECF0F1;
 
-    padding: 16px 0;
+    padding: 24px 8px;
 
     background-color: #182C61;
 }
@@ -25,6 +25,7 @@ header nav li{
 
 header nav li a{
     color:#ECF0F1;
+    text-decoration: none;
 }
 
 h2 {
@@ -35,4 +36,10 @@ h2 {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
