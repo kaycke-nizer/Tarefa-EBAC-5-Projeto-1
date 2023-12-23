@@ -19,7 +19,7 @@ header {
 
     padding: 24px 8px;
 
-    background-color: #182C61;
+    background-color: #381861;
 }
 
 header nav li{
@@ -78,4 +78,10 @@ section .container div {
 
 section .container div p {
     margin: 16px 0;
+}
+
+footer {
+    background-color: #381861;
+    color: #ECF0F1;
+    padding: 16px 0;
 }
