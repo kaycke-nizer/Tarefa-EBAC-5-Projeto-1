@@ -9,7 +9,8 @@
 }
 
 p {
-
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
 }
 
 header {
@@ -18,13 +19,14 @@ header {
     color: #ECF0F1;
 
     padding: 24px 8px;
+    margin: 0;
 
     background-color: #381861;
 }
 
 header nav li{
     display: inline;
-    margin-left: 16px;
+    margin: 0 10px;
 }
 
 header nav li a{
@@ -34,6 +36,7 @@ header nav li a{
 
 h2 {
     font-family: 'Bungee', sans-serif;
+    font-size: 32pt;
 }
 
 .brands-list img{
@@ -46,9 +49,9 @@ h2 {
 }
 
 .container {
-    max-width: 1280px;
     width: 100%;
-    margin: 0 auto;
+    max-width: 90%;
+    padding: 0 10%;
 }
 
 .container h2{
@@ -65,20 +68,82 @@ section .container {
 section {
     padding: 24px;
     margin: 16px;
+
 }
 
 section .container {
-    padding: 16px;
     align-items: flex-start;
 }
 
 section .container div {
-    margin: 16px;
+    margin: 0 16px;
 }
 
 section .container div p {
     margin: 16px 0;
 }
+
+
+
+.produtos {
+    padding: 2% 10%;
+    color: white;
+    background-color: #3f2364;
+    margin: 0;
+}
+
+.produtos h2 {
+    margin: 6px;
+}
+
+.produtos p {
+    margin: 6px;
+    padding: 1%;
+}
+
+.produtos .texto-produtos {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.contato{
+    background-color: rgb(219, 219, 219);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.contato div p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 0;
+    padding: 12px;
+}
+
+.contato div ul li{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.contato div ul li input {
+    font-size: 20px;
+    box-shadow: none;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 30px;
+    width: max-content;
+}
+
+.contato div ul li button {
+    padding: 16px 24px;
+    font-size: large;
+}
+
 
 footer {
     background-color: #381861;
